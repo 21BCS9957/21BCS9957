@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+color: chocolate;
+}
+#navbar{
+    background-color: #000000;
+    height: 40px;
+    width: 100%;
+ 
+    
+}
+#search{
+    background-color: rgb(196, 148, 24);
+    color: aliceblue;
+}
+
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}

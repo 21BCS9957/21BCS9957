@@ -1,0 +1,49 @@
+div{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 30%;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    /* transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in; */
+    transition: all 15s ease-in 0s;
+    
+        animation:p 3s ease-in 0s infinite normal;
+      
+      
+   
+ 
+ 
+}
+
+div:hover{
+      height: 210px;
+    width: 400px;  
+    background-color: brown;
+ color: aliceblue;
+ transform: rotate(20000deg);
+
+}
+div:active{
+    background-color: cornflowerblue;
+
+}
+@keyframes coloranimate{
+    
+    0%{background-color: rgb(73, 188, 115);}
+    40%{background-color: rgb(202, 80, 194);}
+    100%{background-color: rgb(200, 48, 48);}
+ 
+}
+@keyframes p{
+    
+    0%{left: 0px;}
+    100%{left: 800px;}
+    
+ 
+}

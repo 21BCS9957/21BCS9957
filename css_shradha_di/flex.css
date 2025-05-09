@@ -1,0 +1,94 @@
+/* body{
+    text-align: center;
+  
+}
+div{
+    height: 100px;
+    width: 100px;
+     display: inline-block; 
+    border: 2px solid black;
+}
+ #container{
+    height: 300px;
+    width: 400px;
+    
+   
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+     flex-wrap: wrap;  
+    /* align-content: center; */
+    /* align-items: center;
+} 
+ #box1{
+    background-color: aqua;
+  
+}
+#box2{
+    background-color: pink;
+
+}
+#box3{
+    background-color: darkkhaki;
+ 
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+}   */
+ 
+/* this assignment q1 */
+
+/* a{
+text-decoration: none;
+color: aliceblue;
+}
+ul{
+display: flex;
+justify-content: space-between;
+background-color: black;
+
+}
+
+li{
+list-style: none;
+
+} */
+
+/* this is assignment q2 */
+
+/* div{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+    display: flex;
+     justify-content: center; 
+    align-items: center;
+   
+    
+}
+#box2{
+height: 200px;
+width: 200px;
+background-color: azure;
+
+} */
+
+/* assignment 7 quistion ----> */
+
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    text-align: center;
+
+}
+@media(min-width: 600px) and (max-width: 800px){
+div{
+    background-color: rgb(212, 255, 0);
+
+}
+}
